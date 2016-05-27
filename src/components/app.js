@@ -13,6 +13,7 @@ class App extends Component
     render(){
         return (
             <div>
+                testing whether the new pluging format works
                 <button onClick={this.doVibrate} style={{width:'100%'}}>Do something</button>
             </div>
             

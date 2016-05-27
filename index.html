@@ -14,41 +14,9 @@
 </head>
 
 <body align="center">
-	this is dumb
-	<div class="div-decount-reset-button">
-		<input type="button" 
-			   class="border-counter-button counter-button-decount teal" 
-			   value='-1' 
-			   onClick='decount()'>
-			   
-		<input type="button" 
-		       class="border-counter-button counter-button-reset teal" 
-			   value='RESET' 
-			   onClick='reset()'>
-	</div>
-	
-	<span class="running-number" id="running-number">
-		0
-	</span>
-	
-	<div class="div-counter-button">
-		<input type="button" 
-			   class="border-counter-button counter-button-count teal" 
-			   value="COUNT" 
-			   onClick="count()" >
-	</div>
-	
-	<footer style="color: white; font-weight: bold;">
-		Counter Tap
-	</footer>
-    
-	<script type="text/javascript">
-		document.addEventListener('deviceready', onDeviceReady, false);
-		function onDeviceReady() {
-			
-		}
-	</script>
-	<script type="text/javascript" src="js/counter.js"></script>
+	<div id="app"></div>
+
+	<script type="text/javascript" src="build/build.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="background-full">
+
+<head>
+    <meta name="viewport" 
+		  content="user-scalable=no, 
+		  initial-scale=1, 
+		  maximum-scale=1, minimum-scale=1, 
+		  width=device-width" />
+    <script type="text/javascript" src="phonegap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	
+    <title>Counter Tap</title>
+</head>
+
+<body align="center">
+	<div class="div-decount-reset-button">
+		<input type="button" 
+			   class="border-counter-button counter-button-decount teal" 
+			   value='-1' 
+			   onClick='decount()'>
+			   
+		<input type="button" 
+		       class="border-counter-button counter-button-reset teal" 
+			   value='RESET' 
+			   onClick='reset()'>
+	</div>
+	
+	<span class="running-number" id="running-number">
+		0
+	</span>
+	
+	<div class="div-counter-button">
+		<input type="button" 
+			   class="border-counter-button counter-button-count teal" 
+			   value="COUNT" 
+			   onClick="count()" >
+	</div>
+	
+	<footer style="color: white; font-weight: bold;">
+		Counter Tap
+	</footer>
+    
+	<script type="text/javascript">
+		document.addEventListener('deviceready', onDeviceReady, false);
+		function onDeviceReady() {
+			
+		}
+	</script>
+	<script type="text/javascript" src="js/counter.js"></script>
+</body>
+
+</html>

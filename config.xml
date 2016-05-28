@@ -4,9 +4,9 @@
 		id				= "com.simpleappsgn.icountertap" 
 		version			= "2.0.0">
 		
-	<name>Counter Tap</name>
+	<name>Webpack React Cordova Starter</name>
 	
-	<description>Simple application to count stuff.</description>
+	<description>What is the most basic code needed to get a phone gap app to work with plugins.</description>
 
 	<icon src="icon.png"/>
 	
@@ -17,10 +17,8 @@
 	</platform>
 	
 	<plugin name="cordova-plugin-vibration" />
-	
 	<gap:plugin name="org.apache.cordova.dialogs" />
 
-  
 	<supports-screens android:anyDensity="true" android:resizeable="true"
 		android:smallScreens="true"
 		android:normalScreens="true"
